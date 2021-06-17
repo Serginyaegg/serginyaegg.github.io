@@ -1,12 +1,14 @@
 html {
     overflow-x:auto;
+    font-family:'Lucida Sans Unicode';
+    font-style:normal;
+    font-size:13px;
 }
 
 .main-title{
-    background-color:teal;
+    background-color:rgb(212, 245, 245);
     text-align: center;
     color:black;
-    font-family:sans-serif;
     border-style: solid;
     font-size:40px;
     margin-left:130px;
@@ -15,10 +17,9 @@ html {
 }
 
 .other-titles {
-    background-color:tomato;
+    background-color:rgb(212, 245, 245);
     text-align: center;
     color:black;
-    font-family:sans-serif;
     border-style: solid;
     font-size:40px;
     margin-left:130px;
@@ -35,20 +36,18 @@ html {
 #topic-list {
     text-align:left;
     font-size:20px;
-    font-family:sans-serif;
     margin-left:10px;
     padding-left:40px;
     padding-top:30px;
     padding-bottom:30px;
-    background-color:lightskyblue;
+    background-color:rgb(244, 245, 182);
     width: 700px;
 }
  
 .sub-head {
-    background-color:rgb(98, 140, 219); 
+    background-color:rgb(171, 238, 197); 
     text-align:left; 
     font-size:20px;
-    font-family:sans-serif;
     margin-left:10px;
     width:720px;
     padding:10px;
@@ -57,8 +56,8 @@ html {
 
 .topnav {
     overflow: hidden;
-    background-color:coral;
-    width:818px;
+    background-color:rgb(241, 207, 144);
+    width:854.2px;
     margin-top: 20px;
     margin-left: 130px;
     margin-bottom:20px;
@@ -69,7 +68,6 @@ html {
     text-align: center;
     text-decoration: none;
     font-size: 17px;
-    font-family:sans-serif;
     font-weight: bold;
     padding:7px;
   }
@@ -78,12 +76,16 @@ html {
     background-color:whitesmoke;
   }
  
-a:hover {
+a:hover.topnav{
     color:whitesmoke;   
 }
 
+a:hover {
+    color:whitesmoke
+}
+
 a:hover.active {
-    background-color:coral;
+    background-color:rgb(241, 207, 144);
 }
 
 .div {
@@ -91,7 +93,6 @@ a:hover.active {
     background-color:whitesmoke;
     margin-left:130px;
     width:1075px;
-    font-family:sans-serif;
     font-size:18px;
     padding-left:15px;
     display:inline-block;
@@ -146,4 +147,17 @@ th {
     margin-top:20px;
     margin-right:175px;
     margin-left:20px;
+}
+
+#email-address {
+    margin-bottom:100px;
+    color:black;
+}
+
+#email-address:hover{
+    color:rgb(82, 155, 224);
+}
+
+#bookmark:hover {
+    color:rgb(82, 155, 224);
 }
